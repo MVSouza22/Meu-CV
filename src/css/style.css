@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    height: 88px;
+    justify-content: space-between;
+    box-shadow: 0px 10px 0px #560404;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 4px 4px 8px #ff0000;
+    padding: 10px 20px
+}
+
+nav {
+    text-align: right;
+    padding: 27px;
+    
+}
+
+a{
+    display: inline-flex;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    margin-right: 30px;
+    align-items: center;
+}
+
+a::before {
+    content: "";
+    background-color: #560404;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.botao-cv {
+    display: inline-block;
+    background-color: #560404;
+    margin: 10px 20px;
+    padding: 18px 20px;
+    box-shadow: 4px 4px 10px #ff0000;
+    transition: transform 0.2s linear;
+}
+
+.botao-cv:hover{
+    transform: scale(1.09);
+    box-shadow: 2px 2px 15px #ff0000;
+}
+
+.fotos {
+    background-color: #560404;
+    margin-top: 5px;
+    width: 100vw;
+}
+
+#foto1 {
+    width: 55vw;
+    height: 925px;
+}
+
+#foto2 {
+    width: 44vw;
+    height: 925px;
+}
+
+.box {
+    position: absolute;
+    display: inline-block;
+    background-color: #560404;
+    margin-top: -700px;
+    margin-left: 300px;
+    padding: 18px 20px;
+    box-shadow: 4px 4px 10px #000000;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-shadow: 4px 4px 8px #ff0000;
+    padding: 10px 20px
+}
+
+#botao{
+    position: absolute;
+    display: inline-block;
+    background-color: #560404;
+    margin-top: -460px;
+    margin-left: 380px;
+    padding: 18px 20px;
+    box-shadow: 4px 4px 10px #000000;
+    transition: transform 0.2s linear;
+}
+
+#botao:hover{
+    transform: scale(1.09);
+    box-shadow: 2px 2px 15px #ff0000;}
+
+#botao-contato {
+    position: absolute;
+    display: inline-block;
+    background-color: #560404;
+    margin-top: -460px;
+    margin-left: 720px;
+    padding: 18px 40px;
+    box-shadow: 4px 4px 10px #000000;
+    transition: transform 0.2s linear;
+}
+
+#botao-contato:hover{
+    transform: scale(1.09);
+    box-shadow: 2px 2px 15px #ff0000;
+}
