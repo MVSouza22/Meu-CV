@@ -1,0 +1,12 @@
+.skill {
+    display: flex;
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    color: #fff;
+    margin-left: 239px;
+    margin-top: 70px;
+}
+
+.skill .icon {
+    margin-right: 25px;
+}
