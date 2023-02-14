@@ -5,3 +5,9 @@ h1{
     text-shadow: 4px 4px 8px #ff0000;
     padding: 10px 20px
 }
+
+.title-skills {
+    text-shadow: none;
+    text-align: center;
+    font-size: 40px;
+}
